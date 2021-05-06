@@ -1,0 +1,198 @@
+/* CSS Document */
+
+/* Ask Carrie for help with spacing */
+body {
+background-color: #003049;
+}
+
+.Quiz {
+text-align: center;
+font-size: 20px;
+padding-top: 10px;
+width: 100%;
+background-color: #003049;
+}
+
+#Quiz {
+color: #F77F00;
+font-size: 50px;
+font-family: 'Inika', serif;
+
+}
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.Background {
+}
+
+.Island {
+text-align: center;
+font-size: 31px;
+padding-top: 50px;
+width: 100%;
+border: 1px solid black;
+background-color: #003049;
+}
+
+
+
+.Island .Heading {
+border: 1px solid black;
+padding: 10px 0% 0px 0%;
+marigin: 0px 10%;
+
+}
+
+/* Wraps around all divs */
+.coolPic {
+width: 48%;
+float: left;
+height: 300px;
+margin: 1%;
+
+}
+
+.Pic11 {
+padding: 0px;
+background-image: url('../Pics/ChooseREAL/AdventurerTime.jpg');
+background-size: cover;
+}
+
+
+
+.Btn {
+background-color: #fcbf49;
+color: black;
+width: 60%;
+margin: 230px auto 0px auto;
+border-radius: 10px;
+text-align: center;
+font-family: 'Inika', serif;
+font-size: 21px;
+border: solid 2px #f77f00;
+font-weight: 700;
+}
+
+.Btn:hover {
+background-color: #003049;
+}
+
+.Text {
+text-decoration: none;
+color: #003049;
+}
+
+.Text:hover {
+color: white;
+}
+
+.Text {
+margin: 10px 0%;
+}
+
+.Pic21 {
+background-image: url('../Pics/ChooseREAL/CityKid.jpg');
+background-size: cover;
+
+}
+
+.Pic2 .Btn2 {
+
+}
+
+
+.Pic31 {
+background-image: url('../Pics/ChooseREAL/Swimmer.jpg');
+background-size: cover;
+
+}
+
+.Pic31 .Btn3 {
+border: 1px solid black;
+border-radius: 10%;
+text-align: center;
+}
+
+
+.Pic4 {
+background-image: url('../Pics/ChooseREAL/Meditator.jpg');
+background-size: cover;
+}
+
+.Pic4 .Btn4 {
+border: 1px solid black;
+padding: 10px 0% 10px 0%;
+margin: 200px 20% 50px 20%;
+text-align: center;
+border-radius: 10%;
+}
+
+.Pic5 {
+background-image: url('../Pics/ChooseREAL/Travelor.jpg');
+background-size: cover;}
+
+.Pic5 .Btn5 {
+border: 1px solid black;
+padding: 10px 0% 10px 0%;
+margin: 200px 20% 50px 20%;
+text-align: center;
+border-radius: 10%;
+}
+
+
+.Pic6 {
+background-image: url('../Pics/ChooseREAL/Culture.jpg');
+background-size: cover;
+}
+
+.Pic6 .Btn6 {
+border: 1px solid black;
+padding: 10px 0% 10px 0%;
+margin: 200px 20% 50px 20%;
+text-align: center;
+border-radius: 10%;
+}
+
+.Mystery {
+border: 1px solid black;
+padding: 0px 0% 0px 0%;
+margin: 0px 0%;
+width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media screen and (min-width: 768px) {
+
+.coolPic {
+width: 31%;
+}
+}
+
+
+/* SECOND MEDIA QUERY */
+@media screen and (min-width: 996px) {
+
+
+
+
+.Heading {
+font-size: 55px;
+}
+}

@@ -1,0 +1,228 @@
+/* WRAPS TEXT AROUND IMAGE */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Background {
+background-image: url("../../IslandInfo/BackgroundIsland.jpg");
+background-size: cover;
+}
+
+.RegularOne {
+font-family: 'Open Sans', sans-serif;
+font-size: 50px;
+color: #f77f00;
+margin: 20px 0px 0px 0px;
+}
+
+/* ISLAND TEXT */
+.Island {
+text-align: center;
+font-size: 20px;
+padding-top: 10px;
+width: 100%;
+background-color: #003049;
+}
+
+/* COLORIZES TEXT */
+#MainText {
+color: #f77f00;
+font-size: 90px;
+font-family: 'Inika', serif;
+margin: 0px;
+}
+
+
+/* Global variable where all changes affect every other div 
+PLACEHOLDER FOR PIC
+*/
+.SmallBox {
+border: 3px solid #F77F00;
+margin: 20px 25%;
+padding: 120px 0px 0px 0px;
+font-size: 10px;
+color: #003049;
+}
+
+
+.TopBar {
+font-family: 'Inika', serif;
+}
+
+/* TEXT BOX */
+.Big {
+border: 3px solid #F77F00;
+margin: 0px 10% 35px 10%;
+text-align: center;
+font-size: 15px;
+background-color: #FCBF49;
+color: #003049;
+font-family: 'Open Sans', sans-serif;
+}
+
+#Main {
+margin: 0px;
+padding: 0px;
+font-family: 'Inika', serif;
+}
+
+/* FIRST DIV WHERE FIRST PICTURE GOES IN */
+.Img1 {
+background-image: url("../../Pics/Islands/PHOTOSHOPPED/Lanaii/ZipLine.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+
+/* FIRST TEXTBOX */
+.Para1 {
+}
+
+
+/* SECOND IMAGE */
+.Img2 {
+background-image: url("../../Pics/Islands/PHOTOSHOPPED/Lanaii/Yoga.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+/* SECOND PARAGRAPH BOX */
+.Para2 {
+
+}
+
+
+/* TRYING TO GET THIRD IMAGE INSIDE OF DIV */
+.Img3 {
+background-image: url("../../Pics/Islands/PHOTOSHOPPED/Lanaii/Rainbow.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+/* THIRD PARAGRAPH BOX */
+.Para3 {
+
+}
+
+
+.Img4 {
+background-image: url("../../Pics/Islands/PHOTOSHOPPED/Lanaii/Shooter.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+border-color: #FCBF49;
+}
+
+.Img5 {
+background-image: url("../../Pics/Islands/PHOTOSHOPPED/Lanaii/Heli.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.Img6 {
+background-image: url("../../Pics/Islands/PHOTOSHOPPED/Lanaii/Bikr.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 400px) {
+.SmallBox {
+padding: 160px 0px 0px 0px;
+margin: 20px 27%;
+}
+}
+
+@media screen and (min-width: 500px ) {
+.SmallBox {
+padding: 180px 0px 0px 0px;
+}
+
+#MainText {
+font-size: 55px;
+}
+
+}
+
+/* What happens after screen width gets to 615 pixels */
+@media screen and (min-width: 615px) {
+
+#MainText {
+font-size: 70px;
+}
+
+/* CSS FOR PLACEHOLDER */
+.SmallBox {
+border: 3px solid #F77F00;
+margin: 20px 30%;
+padding: 220px 0px 0px 0px;
+font-size: 10px;
+}
+
+/* CSS FOR TEXT BOX */
+.Big {
+border: 3px solid #F77F00;
+margin: 30px 10% 75px 10%;
+text-align: center;
+font-size: 18px;
+}
+
+/* Island Text at header */
+.Island {
+font-size: 80px;
+}
+
+
+
+}
+
+@media screen and (min-width: 790px) {
+/* USE WIDTH TO DEFINE BREAKPOINTS */
+    footer {
+    clear: both;
+    content: "";
+    display: block;
+  }
+  
+  .Island {
+  font-size: 100px;
+  }
+
+/* PLACEHOLDER PIC */
+.SmallBox {
+float: left;
+margin: 125px 5%;
+padding: 220px 30% 0px 0px;
+
+}
+
+/* TEXT BOX */
+.Big {
+margin: 125px 1%;
+padding: 1px 2%;
+width: 40%;
+float: left;
+}
+
+
+
+
+}
+
+
+@media screen and (min-width: 996px) {
+
+.SmallBox {
+float: left;
+margin: 125px 5%;
+padding: 200px 30% 0px 0px;
+height: 30px;
+}
+
+
+
+.Big {
+
+}
+
+}

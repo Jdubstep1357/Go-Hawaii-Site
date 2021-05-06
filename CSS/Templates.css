@@ -1,0 +1,120 @@
+/* Width for mobile */
+.Mobile {
+max-width: 700px;
+width: 700px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* -----------------------
+CHANGE BACKGROUND COLOR LATER
+--------------------------
+body {
+background-color:lightblue;
+
+}
+*/
+
+/* -------------------------------
+CHANGE TO DARK BLUE LATER
+--------------------------------
+header {
+background-color: #FFFFFF;
+
+}
+*/ 
+
+/* CSS FOR TEXTBOX */
+
+
+.NewKey {
+color: #F003049;
+}
+.topText {
+text-align: center;
+color: white;
+font-size: 36px;
+}
+
+/* Top button */
+.btn {
+border: 1px solid black;
+width: 10%;
+height: 10px;
+margin-left: 10%;
+padding: 10px;
+border-radius: 25%;
+font-family: inika, Baskerville, 'Palatino Linotype';
+float: left;
+
+}
+
+.btn .top1 {
+float: left;
+}
+
+.btn .top2{
+float: left;
+}
+
+.btn .top3 {
+float: left;
+}
+
+.btn .top4 {
+float: left;
+}
+
+
+
+
+/* Div for bottom */
+.Bottom {
+border: 1px solid black;
+width: 100%;
+height: 300px;
+float: right;
+}
+
+
+.Logo {
+border: 1px  solid black;
+width: 20%;
+height: 80px;
+/* top, right, bottom, left */
+margin: 30px 200px 20px;
+align: center;
+}
+
+.EmailText {
+border: 1px solid black;
+width: 25%;
+margin: 0px 200px;
+height: 30px;
+
+}
+
+/* CSS BUTTON */
+
+
+.EmailNavBar {
+border: 1px solid black;
+width: 40%;
+height: 30px;
+margin: 20px 125px;
+float: left;
+}
+
+.EmailBtn {
+border: 1px solid black;
+width: 10%;
+height: 30px;
+float: left;
+margin: 20px -105px;
+}
+
+/* When picture expands by 768 pixels */

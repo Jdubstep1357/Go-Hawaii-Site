@@ -1,0 +1,371 @@
+@charset "UTF-8";
+/* CSS Document */
+/* DIVS FOR UPPER BUTTONS */
+/* Top button */
+
+header {
+background-color: #003049;
+}
+.btn {
+  border: 1px solid black;
+  width: 10%;
+  height: 10px;
+  margin-left: 8%;
+  padding: 10px;
+  border-radius: 30%;
+  font-family: inika, Baskerville, 'Palatino Linotype';
+  float: left;
+  background-color: #f77f00;
+ 
+}
+
+
+.btn:hover {
+background-color: #FCBF49;
+}
+
+.NewKey:hover {
+color: white;
+}
+
+.New:hover {
+background-color: #f77f00;
+}
+
+.NewKey {
+color: #003049;
+text-decoration: none;
+}
+/* BOTTOM DIV PHOTOS */
+#Pic1 {
+width: 50px;
+}
+
+#Pic2 {
+width: 50px;
+}
+
+#Pic3 {
+width: 50px;
+}
+
+/* The text inside of buttons */
+.Text1 {
+margin: 0;
+padding: 0;
+color: #fcbf49;
+font-size: 13px;
+text-align: center;
+line-height: 15px;
+}
+
+/* Submit button here */
+.Submit {
+background-color: #003049;
+border-radius: 15%;
+}
+
+.New:hover {
+background-color: #f77f00;
+}
+
+
+.btn .top1 {
+  float: left;
+}
+.btn .top2 {
+  float: left;
+}
+.btn .top3 {
+  float: left;
+}
+.btn .top4 {
+  float: left;
+}
+.Social {
+margin: 0px 0px 0px 0px;
+}
+.Social .Pic1 {
+  float: left;
+  width: calc(33% - 2px);
+}
+.Social .Pic2 {
+  float: left;
+  width: calc(33% - 2px);
+}
+.Social .Pic3 {
+  float: left;
+  width: calc(33% - 2px);
+}
+footer {
+  clear: both;
+  content: "";
+  display: block;
+  background-color: #fcbf49;
+}
+/* FIRST DIV */
+.Cont1 {
+text-align: center;
+
+}
+.Email2 {
+  margin: 2% 90px;
+}
+
+#Involved {
+font-size: 30px;
+padding: 0px;
+margin: 0px;
+font-family: inika, Baskerville, 'Palatino Linotype';
+
+}
+
+/* Submit Text */
+.OldKey {
+text-align: center;
+	padding-left: 20px;
+  border: 3px solid #003049;
+  border-radius: 9%;
+  margin: 1% 0px 1%;
+  background-color: #f77f00;
+  width: 80%;
+  padding: 0px 0%;
+  border-radius: 20px;
+  height: 25px;
+  font-size: 15px;
+  color: #003049;
+}
+
+/* THIS CHANGES COLOR OF TEXT INSIDE OF PLACEHOLDER */
+
+
+
+/* Email List */
+.List2 {
+  border: 3px solid #003049;
+  border-radius: 30px;
+  margin: 40px 25%;
+  background-color: #003049;
+  width: 35%;
+  padding: 2px 0%;
+  text-align: center;
+  
+}
+
+
+/* EMAIL TEXT */
+#Email {
+  font-family: inika, Baskerville, 'Palatino Linotype';
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+/* SUBMIT BUTTON */
+.Submit {
+  border: 1px solid black;
+  margin: 45px 25%;
+  border-radius: 20%;
+  width: 40%;
+  margin-top: 20px;
+  float: left;
+}
+
+/* SUBMIT TEXT */
+.New {
+background-color: #003049;
+margin: 0px 5%;
+padding: 1px;
+border-radius: 20%;
+font-weight: 700;
+font-family: inika, Baskerville, 'Palatino Linotype';
+font-size: 20px;
+color: #fcbf49;
+text-align: center;
+
+}
+
+
+/* YELLOW DIV/MIDDLE DIV */
+.Cont2 {
+background-color: #fcbf49;
+
+}
+/* SOCIAL DIV GREEN */
+.Cont3 {
+border-radius: 0%;
+background-color: #fcbf49;
+}
+
+
+@media screen and (min-width: 500px) {
+
+.Cont1 {
+}
+
+.List2 {
+width: 25%;
+}
+
+.OldKey {
+}
+
+.List2 {
+width: 40%;
+margin: 20px 30%;
+}
+
+.Submit {
+width: 25%;
+margin: 40px 30%;
+}
+
+.Email2 {
+margin: 0px 30%
+}
+
+.btn .top1 {
+font-size: 20px;
+}
+
+.Text1 {
+font-size: 16px
+}
+
+
+}
+
+
+@media screen and (min-width: 600px) {
+.List2 {
+width: 30%;
+}
+}
+
+
+/* MAKE DIV WORK BETTER */
+@media screen and (min-width: 768px) {
+  footer {}
+  /* TO INCREASE PADDING DECREASE WIDTH OF CONTAINER */
+  /* HORIZONTAL CHANGES AFFECT LAYOUT, VERTICAL FINE */
+  /* DIVS FOR UPPER BUTTONS */
+  /* Top button */
+  
+  .Text1 {
+  font-size: 25px;
+  }
+ 
+  .Cont1 {
+
+  }
+  .Cont2 {
+    float: left;
+    width: 0%;
+    padding-top: 0px;
+	margin: 0px 0%;
+	width: 75%;
+  }
+  /* Div for email */
+  .Email2 {
+    padding-top: 0px;
+    margin: 0px 15%;
+    margin-top: 0px;
+	float: left;
+  }
+  /* Div for email list */
+  .List2 {
+    padding-top: 0px;
+    text-align: center;
+    margin: 0px 0%;
+    margin-top: 10px;
+	margin-bottom: 30px;
+	float: left;
+  }
+  /* Div for submit button */
+  .Submit {
+    border: 1px solid black;
+    padding-top: 0px;
+    text-align: center;
+    margin: 40px 35% 10px;
+    margin-top: 0px;
+	font-size: 30px;
+	}
+	
+
+	
+	
+  .Cont3 {
+    float: left;
+	margin: 0px 0% 0px;
+	padding-bottom: 0px;
+    margin-bottom: 0px;
+	border-radius: 0%;
+  }
+  
+
+  .Social .Pic1 {
+    width: calc(100% - 2px);
+	border-radius: 0%;
+  }
+  .Social .Pic2 {
+    width: calc(100% - 2px);
+	border-radius: 0%;
+  }
+  .Social .Pic3 {
+    width: calc(100% - 2px);
+	border-radius: 0%;
+  }
+  
+  /* -----------------------
+  PUT THIS IN AFTER FINISHING WIREFRAMES
+  --------------------------
+  footer {
+background-color: #003049;
+
+  }
+*/
+
+  .Submit {
+
+  }
+  
+  .New {
+  font-size: 20px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  footer {}
+  .Cont1 {
+  }
+  .Cont2 {
+    float: left;
+    width: 75%;
+	margin-top: 0px;
+  }
+  .Cont3 {
+    float: left;
+    width: 17%;
+	border-radius: 0%;
+	background-color: #FCBF49;
+	margin-left: 5%;
+	margin-bottom: 20px;
+  }
+  
+  .Submit {
+  float: left;
+  margin: 0px 0px;
+  float: left;
+  }
+ .Email2 {
+ margin: 0% 5%;
+ }
+  
+  .List2 {
+  margin: 0px 5%;
+  }
+  
+  .Social .Pic1 {
+  padding: 0px 0px 0px 0px;
+  }
+}

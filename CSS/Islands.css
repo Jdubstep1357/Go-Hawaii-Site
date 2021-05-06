@@ -1,0 +1,267 @@
+/* CSS Document */
+body {
+
+
+}
+/* Possibly the background color causes the rest of the image to be weird */
+
+#Kauai:hover {
+color: white;
+}
+
+#Hawaii:hover {
+color: white;
+}
+
+
+#Lanai:hover {
+color: white;
+}
+
+#Molokai:hover {
+color: white;
+}
+
+#Oahu:hover {
+color: white;
+}
+
+#Maui:hover {
+color: white;
+}
+
+.Link2 {
+text-decoration: none;
+color: white;
+}
+
+.Background {
+background-color: #003049;
+opcaity: 36%;
+}
+
+/* CONTAINER 1 */
+.Container1 {
+
+}
+
+.Container2 {
+
+}
+
+/* Islands in center*/
+.Island {
+text-align: center;
+font-size: 74px;
+background-color: #003049;
+}
+
+#Heading {
+color: #f77f00;
+font-family: 'Inika', serif;
+}
+
+/* Oahu picture */
+.Oahu {
+text-align: center;
+font-size: 45px;
+}
+
+
+
+
+/* CSS for Oahu text */
+#Oahu {
+font-family: 'Inika', serif;
+font-weight: 700;
+color: #f77f00;
+}
+
+
+.Lanai {
+text-align: center;
+font-size: 45px;
+background-color: #003049;
+padding: 0px;
+}
+
+#Lanai {
+font-family: 'Inika', serif;
+font-weight: 700;
+color: #f77f00;}
+
+
+.Maui {
+text-align: center;
+font-size: 45px;
+background-color: #003049;
+}
+
+#Maui {
+font-family: 'Inika', serif;
+font-weight: 700;
+color: #f77f00;
+}
+
+
+
+
+
+.Molokai {
+text-align: center;
+font-size: 45px;
+background-color: #003049;
+}
+
+#Molokai {
+font-family: 'Inika', serif;
+font-weight: 700;
+color: #f77f00;
+}
+
+
+
+
+
+
+
+
+.Kauai {
+text-align: center;
+font-size: 45px;
+background-color: #003049;
+}
+
+
+#Kauai {
+font-family: 'Inika', serif;
+font-weight: 700;
+color: #f77f00;
+}
+
+
+
+.Hawaii {
+text-align: center;
+font-size: 45px;
+background-color: #003049;
+}
+
+#Hawaii {
+font-family: 'Inika', serif;
+font-weight: 700;
+color: #f77f00;}
+
+
+/* MANAGES WIDTH FOR ALL PICTURES */
+
+.Num2 {
+text-align: center;
+border-radius: 50%;
+}
+
+.Num2 img {
+border-radius: 50%;
+}
+
+.OahuPic {
+
+}
+
+#OahuPic {
+border-radius: 50%;
+max-width: 250px;
+height: 250px;
+text-align: center;
+border: 5px solid #FFAC52;
+display: inline-block;
+overflow: hidden;
+}
+
+#MolokaiPic {
+border-radius: 50%;
+max-width: 250px;
+height: 250px;
+text-align: center;
+border: 5px solid #FFAC52;
+}
+
+#HawaiiPic {
+border-radius: 50%;
+max-width: 250px;
+height: 250px;
+text-align: center;
+border: 5px solid #FFAC52;
+}
+
+#MauiPic {
+border-radius: 50%;
+max-width: 250px;
+height: 250px;
+text-align: center;
+border: 5px solid #FFAC52;
+}
+
+#LanaiPic {
+border-radius: 50%;
+max-width: 250px;
+height: 250px;
+text-align: center;
+border: 5px solid #FFAC52;
+}
+
+#KuaiPic {
+border-radius: 50%;
+max-width: 250px;
+height: 250px;
+text-align: center;
+border: 5px solid #FFAC52;
+}
+
+
+/* ---------------------- 
+-------  CONTAINER 1 ------
+------------------------
+*/
+
+/* OAHU */
+.Islands-Img1 {
+text-align: center;
+}
+
+
+
+
+
+
+/* ----------------------- */
+/* MEDIA QUERY  */
+/* ----------------------- */
+@media screen and (min-width: 768px) {
+
+
+.Container1 {
+width: 50%;
+float: left;
+background-color: #003049;
+}
+.Container2 {
+width: 50%;
+float: left;
+background-color: #003049;
+}
+
+}
+
+@media screen and (min-width: 996px) {
+.Container1 {
+width: 50%
+}
+
+.Container2 {
+width: 50%;
+}
+
+}
+
+

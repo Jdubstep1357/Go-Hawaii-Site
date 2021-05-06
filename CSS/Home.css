@@ -1,0 +1,211 @@
+/* WRAPS TEXT AROUND IMAGE */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h2 {
+color: black;
+}
+
+#Fname {
+color: black;
+}
+
+p {
+color: black;
+}
+
+.ImageOver {
+width: 100%;
+float: center;
+text-align: center;
+}
+
+.BackImg {
+background-image: url("../Pics2/Picture.jpg");
+background-size: cover;
+background-position: 20% 20%;
+background-repeat: no-repeat;
+float: center;
+}
+
+.TopNav {
+
+}
+
+.BackImg {
+
+}
+
+.Logo {
+margin: 30px 20%;
+padding: 10px 0%;
+border: 0px;
+
+}
+
+.TextBox {
+margin: 100px 25% 40px;
+width: 40%;
+border-radius: 30px;
+padding: 10px;
+font-family: 'Open Sans', sans-serif;
+background-color: #FCBF49;
+text-align: center;
+}
+
+a {
+text-deoration: none;
+}
+
+.Quiz:hover {
+background-color: #003049;
+}
+
+#Quiz:hover {
+color: white;
+}
+
+.Quiz {
+border: 3px solid #FCBF49;
+margin: 20px 26%;
+padding: 5px 5%;
+width: 30%;
+border-radius: 50px;
+font-family: 'Inika', serif;
+text-align: center;
+background-color: #F77F00;
+font-size: 20px;
+font-size: 23px;
+}
+
+#Text {
+color: #003049;
+}
+
+#Quiz {
+color: #003049;
+}
+
+@media screen and (min-width: 500px) {
+.Quiz {
+width: 20%;
+height: 100px;
+text-decoration: none;
+}
+
+.TextBox {
+width: 40%;
+}
+}
+
+@media screen and (min-width: 600px) {
+.TextBox {
+width: 40%;
+}
+
+.Quiz {
+width: 15%;
+}
+}
+
+@media screen and (min-width: 700px) {
+.TextBox {
+width: 40%;
+}
+
+.Quiz {
+width: 15%;
+}
+
+#Quiz {
+font-size: 25px;
+}
+
+.Logo {
+margin: 0px 30%;
+}
+}
+
+@media screen and (min-width: 790px) {
+.TopDiv {
+float: right;
+width: 80%;
+padding: 40px 0%;
+}
+
+
+
+.TextBox {
+float: left;
+margin: 0px 0% 100px 15%;
+padding: 0px 0%;
+width: 30%;
+
+}
+
+#Text {
+font-size: 17px;
+}
+
+.Quiz {
+float: center;
+width: 15%;
+margin: 40px 0px 0px 10%;
+}
+
+.Logo {
+float: left;
+}
+
+.BackImg {
+background-repeat: no-repeat;
+height: 250px;
+
+}
+
+}
+
+@media screen and (min-width: 915px) {
+#Text {
+font-size: 20px;
+}
+
+.Logo {
+margin: 0px 40%;
+}
+
+}
+
+@media screen and (min-width: 800px) {
+.Quiz {
+float: left;
+margin: 0px 10%;
+}
+
+.TextBox {
+padding: 3px;
+}
+
+.BackImg {
+float: center;
+}
+}
+
+@media screen and (min-width: 847px) {
+.Logo {
+float: left;
+}
+}
+
+@media screen and (min-width: 915px) {
+#Quiz {
+font-size: 30px;
+}
+.Quiz {
+padding-bottom: 20px;
+float: center;
+}
+}
